@@ -1,0 +1,59 @@
+.clients-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.regular-clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+.regular-clien-list {
+  display: flex;
+  justify-content: space-between;
+}
+.regular-cliet-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.regular-cliet-link:hover,
+.regular-cliet-link:focus {
+  border-color: var(--navigation-btn-color);
+}
+.regular-cliet-link:hover .regular-clients-icon,
+.regular-cliet-link:focus .regular-clients-icon {
+  fill: var(--navigation-btn-color);
+}
+
+.regular-clien-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 170px;
+  height: 92px;
+}
+.regular-clien-item + .regular-clien-item {
+  margin-left: 30px;
+}
+.regular-clients-icon {
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.regular-clients-icon {
+  fill: var(--icons-main-color);
+}

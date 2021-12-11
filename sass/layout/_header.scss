@@ -1,0 +1,21 @@
+.header {
+  max-width: 1600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #ececec;
+}
+
+.container-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation-header {
+  display: flex;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+}
+.header-contacts-list {
+  display: flex;
+  align-items: center;
+}
