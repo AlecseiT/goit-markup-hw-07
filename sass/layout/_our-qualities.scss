@@ -4,10 +4,9 @@
 
 .qualities-item {
   width: 270px;
-}
-
-.qualities-item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .qualities-list {

@@ -14,6 +14,23 @@
   line-height: 1.71x;
   letter-spacing: 0.03em;
   color: var(--main-second-color);
+  &::before {
+    content: '';
+    display: inline-block;
+    margin-right: 8px;
+    width: 16px;
+    height: 15px;
+    background: var(--secondary-color);
+    border: 2px solid var(--main-first-color);
+    border-radius: 13%;
+    transition-property: border-color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .checkbox-agreement:checked + &::before {
+    background-color: var(--navigation-btn-color);
+    border-color: var(--navigation-btn-color);
+  }
 }
 
 .checkbox-agreement {
@@ -29,29 +46,12 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.label-agreement::before {
-  display: inline-block;
-  content: '';
-  margin-right: 8px;
-  width: 16px;
-  height: 15px;
-  background: var(--secondary-color);
-  border: 2px solid var(--main-first-color);
-  border-radius: 13%;
-  transition-property: border-color, background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .agreement-svg {
   position: absolute;
   top: 0;
   left: 0;
   fill: transparent;
-}
-.checkbox-agreement:checked + .label-agreement::before {
-  background-color: var(--navigation-btn-color);
-  border-color: var(--navigation-btn-color);
 }
 
 .link-modal {

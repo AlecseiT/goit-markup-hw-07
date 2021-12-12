@@ -1,24 +1,23 @@
 .header-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--main-first-color);
-}
-
-.header-link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
   position: relative;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--main-first-color);
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.header-link:hover,
-.header-link:focus {
-  color: var(--navigation-btn-color);
+  &:hover,
+  &:focus {
+    color: var(--navigation-btn-color);
+  }
 }
 
 .header-link.current-line::after {

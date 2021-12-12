@@ -15,10 +15,10 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.email-input:hover + .svg-email,
-.email-input:focus + .svg-email {
-  fill: var(--navigation-btn-color);
+  .email-input:hover + &,
+  .email-input:focus + & {
+    fill: var(--navigation-btn-color);
+  }
 }
 
 .lable-modal-email {
@@ -42,12 +42,11 @@
   transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.email-input:-webkit-autofill {
-  -webkit-background-clip: text;
-}
-
-.email-input:hover,
-.email-input:focus {
-  border-color: var(--navigation-btn-color);
+  &:hover,
+  &:focus {
+    border-color: var(--navigation-btn-color);
+  }
+  &:-webkit-autofill {
+    -webkit-background-clip: text;
+  }
 }

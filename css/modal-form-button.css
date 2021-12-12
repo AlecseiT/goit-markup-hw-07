@@ -21,8 +21,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-submit:hover,
-.btn-submit:focus {
+.btn-submit:hover, .btn-submit:focus {
   background-color: #188ce8;
 }
 /*# sourceMappingURL=modal-form-button.css.map */

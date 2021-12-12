@@ -4,12 +4,12 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.header-contacts:hover .header-icons,
-.header-contacts:focus .header-icons {
-  fill: var(--navigation-btn-color);
-  fill: currentColor;
+  .header-contacts:hover &,
+  .header-contacts:focus & {
+    fill: var(--navigation-btn-color);
+    fill: currentColor;
+  }
 }
 
 .header-contacts {
@@ -25,10 +25,10 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.header-contacts:hover,
-.header-contacts:focus {
-  color: var(--navigation-btn-color);
+  &:hover,
+  &:focus {
+    color: var(--navigation-btn-color);
+  }
 }
 
 .contacts-item:first-child {

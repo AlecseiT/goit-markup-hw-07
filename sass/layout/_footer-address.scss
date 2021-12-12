@@ -8,9 +8,11 @@
   letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
+
 .item-contacts:not(:last-child) {
   margin-bottom: 9px;
 }
+
 .link-contacts {
   font-size: 14px;
   line-height: 1.71;
@@ -20,8 +22,8 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.link-contacts:hover,
-.link-contacts:focus {
-  color: var(--navigation-btn-color);
+  &:hover,
+  &:focus {
+    color: var(--navigation-btn-color);
+  }
 }

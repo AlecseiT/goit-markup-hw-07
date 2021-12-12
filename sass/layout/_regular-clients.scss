@@ -26,15 +26,11 @@
   transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.regular-cliet-link:hover,
-.regular-cliet-link:focus {
-  border-color: var(--navigation-btn-color);
-}
-.regular-cliet-link:hover .regular-clients-icon,
-.regular-cliet-link:focus .regular-clients-icon {
-  fill: var(--navigation-btn-color);
+  &:hover,
+  &:focus {
+    border-color: var(--navigation-btn-color);
+  }
 }
 
 .regular-clien-item {
@@ -44,16 +40,20 @@
 
   width: 170px;
   height: 92px;
-}
-.regular-clien-item + .regular-clien-item {
-  margin-left: 30px;
-}
-.regular-clients-icon {
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  & + .regular-clien-item {
+    margin-left: 30px;
+  }
 }
 
 .regular-clients-icon {
   fill: var(--icons-main-color);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  .regular-cliet-link:hover &,
+  .regular-cliet-link:focus & {
+    fill: var(--navigation-btn-color);
+  }
 }
