@@ -1,18 +1,18 @@
-.header-icons {
+.header__contacts-icons {
   fill: var(--main-second-color);
   margin-right: 10px;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  .header-contacts:hover &,
-  .header-contacts:focus & {
+  .header__contacts-link:hover &,
+  .header__contacts-link:focus & {
     fill: var(--navigation-btn-color);
     fill: currentColor;
   }
 }
 
-.header-contacts {
+.header__contacts-link {
   display: flex;
   align-items: center;
 
@@ -31,6 +31,6 @@
   }
 }
 
-.contacts-item:first-child {
+.header__contacts-item:first-child {
   margin-right: 30px;
 }

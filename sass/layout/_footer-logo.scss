@@ -1,6 +1,4 @@
-.logo-link-footer {
-  display: block;
-  margin-bottom: 20px;
+.logo {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -9,6 +7,11 @@
   color: var(--navigation-btn-color);
 }
 
-.logo-footer {
+.footer__logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer__logo--white {
   color: var(--secondary-color);
 }

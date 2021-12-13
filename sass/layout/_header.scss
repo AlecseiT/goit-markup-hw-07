@@ -4,18 +4,18 @@
   border-bottom: 1px solid #ececec;
 }
 
-.container-navigation {
+.header__container {
   display: flex;
   justify-content: space-between;
 }
-.navigation-header {
+.header__navigation {
   display: flex;
   align-items: center;
 }
-.header-list {
+.header__navigation-list {
   display: flex;
 }
-.header-contacts-list {
+.header__contacts-list {
   display: flex;
   align-items: center;
 }
