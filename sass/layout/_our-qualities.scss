@@ -2,14 +2,14 @@
   padding-top: 94px;
 }
 
-.qualities-item {
+.our-qualities__item {
   width: 270px;
   &:not(:last-child) {
     margin-right: 30px;
   }
 }
 
-.qualities-list {
+.our-qualities__list {
   display: flex;
 }
 
@@ -17,7 +17,7 @@
   display: block;
 }
 
-.icon-case {
+.our-qualities__icon-case {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,7 +29,7 @@
   margin-bottom: 30px;
 }
 
-.qualities-title {
+.our-qualities__title {
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -40,7 +40,7 @@
   color: var(--main-first-color);
 }
 
-.qualities-text {
+.our-qualities__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

@@ -202,6 +202,25 @@ button {
   margin: 0 auto;
 }
 
+.button-style {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--secondary-color);
+  background-color: var(--navigation-btn-color);
+}
+
+.main-title-sections {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-first-color);
+}
+
 .header {
   max-width: 1600px;
   margin: 0 auto;
@@ -330,7 +349,7 @@ button {
   background-size: cover;
 }
 
-.hero-title {
+.hero__title {
   width: 696px;
   margin-left: auto;
   margin-right: auto;
@@ -343,16 +362,9 @@ button {
   color: var(--secondary-color);
 }
 
-.hero-btn {
+.hero__button {
   margin-top: 30px;
   padding: 10px 32px;
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  color: var(--secondary-color);
-  background-color: var(--navigation-btn-color);
   border-radius: 4px;
   border: none;
   transition-property: background-color;
@@ -360,7 +372,7 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-btn:hover, .hero-btn:focus {
+.hero__button:hover, .hero__button:focus {
   background-color: #188ce8;
 }
 
@@ -368,15 +380,15 @@ button {
   padding-top: 94px;
 }
 
-.qualities-item {
+.our-qualities__item {
   width: 270px;
 }
 
-.qualities-item:not(:last-child) {
+.our-qualities__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.qualities-list {
+.our-qualities__list {
   display: flex;
 }
 
@@ -384,7 +396,7 @@ button {
   display: block;
 }
 
-.icon-case {
+.our-qualities__icon-case {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -395,7 +407,7 @@ button {
   margin-bottom: 30px;
 }
 
-.qualities-title {
+.our-qualities__title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -405,7 +417,7 @@ button {
   color: var(--main-first-color);
 }
 
-.qualities-text {
+.our-qualities__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -417,15 +429,19 @@ button {
   padding-bottom: 94px;
 }
 
-.our-work-list {
+.our-work__title {
+  margin-bottom: 50px;
+}
+
+.our-work__list {
   display: flex;
 }
 
-.our-work-item {
+.our-work__item {
   position: relative;
 }
 
-.our-work-text {
+.our-work__text {
   position: absolute;
   display: flex;
   align-items: center;
@@ -442,18 +458,8 @@ button {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.our-work-item:not(:last-child) {
+.our-work__item:not(:last-child) {
   margin-right: 30px;
-}
-
-.our-work-title {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-first-color);
 }
 
 .our-team-section {
@@ -524,15 +530,6 @@ button {
   padding: 30px 32px;
 }
 
-.our-team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-first-color);
-}
-
 .teammate-title {
   font-weight: 500;
   font-size: 16px;
@@ -557,12 +554,7 @@ button {
   padding-bottom: 94px;
 }
 
-.regular-clients-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
+.regular-clients__title {
   margin-bottom: 50px;
 }
 
@@ -783,17 +775,8 @@ button {
   height: 50px;
   margin-left: 12px;
   padding-left: 29px;
-  background: #2196f3;
   border-radius: 4px;
   border: transparent;
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
   transition-property: background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1274,18 +1257,9 @@ button {
   margin-left: auto;
   width: 200px;
   height: 50px;
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87p;
-  text-align: center;
-  letter-spacing: 0.06em;
-  background: var(--navigation-btn-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: var(--secondary-color);
   border: transparent;
-  cursor: pointer;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
