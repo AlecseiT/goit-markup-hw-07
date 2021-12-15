@@ -1,4 +1,4 @@
-.address {
+.footer-address {
   margin-bottom: 9px;
 
   font-style: normal;
@@ -9,11 +9,11 @@
   color: var(--secondary-color);
 }
 
-.item-contacts:not(:last-child) {
+.footer-contacts__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.link-contacts {
+.footer-contacts__link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

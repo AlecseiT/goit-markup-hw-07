@@ -558,12 +558,12 @@ button {
   margin-bottom: 50px;
 }
 
-.regular-clien-list {
+.regular-clients-list {
   display: flex;
   justify-content: space-between;
 }
 
-.regular-cliet-link {
+.regular-clients__link {
   width: 100%;
   height: 100%;
   display: flex;
@@ -576,11 +576,11 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.regular-cliet-link:hover, .regular-cliet-link:focus {
+.regular-clients__link:hover, .regular-clients__link:focus {
   border-color: var(--navigation-btn-color);
 }
 
-.regular-clien-item {
+.regular-clients__item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -588,19 +588,19 @@ button {
   height: 92px;
 }
 
-.regular-clien-item + .regular-clien-item {
+.regular-clients__item + .regular-clients__item {
   margin-left: 30px;
 }
 
-.regular-clients-icon {
+.regular-clients__icon {
   fill: var(--icons-main-color);
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.regular-cliet-link:hover .regular-clients-icon,
-.regular-cliet-link:focus .regular-clients-icon {
+.regular-clients__link:hover .regular-clients__icon,
+.regular-clients__link:focus .regular-clients__icon {
   fill: var(--navigation-btn-color);
 }
 
@@ -610,7 +610,7 @@ button {
   background-color: #2f303a;
 }
 
-.footer-case {
+.footer-wrapper {
   display: flex;
 }
 
@@ -632,7 +632,7 @@ button {
   color: var(--secondary-color);
 }
 
-.address {
+.footer-address {
   margin-bottom: 9px;
   font-style: normal;
   font-weight: 400;
@@ -642,11 +642,11 @@ button {
   color: var(--secondary-color);
 }
 
-.item-contacts:not(:last-child) {
+.footer-contacts__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.link-contacts {
+.footer-contacts__link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -656,7 +656,7 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-contacts:hover, .link-contacts:focus {
+.footer-contacts__link:hover, .footer-contacts__link:focus {
   color: var(--navigation-btn-color);
 }
 
