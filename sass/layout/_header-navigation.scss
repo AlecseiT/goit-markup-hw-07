@@ -1,4 +1,21 @@
-.header__navigation-link {
+.header__navigation {
+  display: flex;
+  align-items: center;
+}
+.header-navigation-list {
+  display: flex;
+}
+
+.header-navigation__item {
+  &:first-child {
+    margin-left: 93px;
+  }
+  &:not(:first-child) {
+    margin-left: 50px;
+  }
+}
+
+.header-navigation__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -33,13 +50,4 @@
 
 .header__navigation--current {
   color: var(--navigation-btn-color);
-}
-
-.header__navigation-item {
-  &:first-child {
-    margin-left: 93px;
-  }
-  &:not(:first-child) {
-    margin-left: 50px;
-  }
 }

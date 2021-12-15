@@ -1,4 +1,4 @@
-.modal {
+.modal-wrapper {
   width: 528px;
   min-height: 581px;
   position: absolute;
@@ -14,11 +14,11 @@
   border-radius: 4px;
 }
 
-.backdrope.is-hidden .modal {
+.backdrope.is-hidden .modal-wrapper {
   transform: scale(0.5) translate(-50%, -50%) rotate(30deg);
 }
 
-.modal-close-btn {
+.modal-close__button {
   width: 30px;
   height: 30px;
   background: #ffffff;
@@ -33,12 +33,12 @@
   justify-content: center;
 }
 
-.close-icon {
+.modal-close__icon {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  .modal-close-btn:hover &,
-  .modal-close-btn:focus & {
+  .modal-close__button:hover &,
+  .modal-close__button:focus & {
     fill: var(--navigation-btn-color);
   }
 }

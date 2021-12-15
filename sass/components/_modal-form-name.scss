@@ -3,10 +3,10 @@
   flex-direction: column;
   margin-bottom: 10px;
 }
-.input-svg-name {
+.modal-name__wrapper {
   position: relative;
 }
-.svg-name {
+.modal-name__icon {
   position: absolute;
   left: 12px;
   top: 50%;
@@ -15,13 +15,13 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  .user-name-input:hover + &,
-  .user-name-input:focus + & {
+  .modal-name__input:hover + &,
+  .modal-name__input:focus + & {
     fill: var(--navigation-btn-color);
   }
 }
 
-.lable-modal-name {
+.modal-name__label {
   margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
@@ -30,7 +30,7 @@
   color: var(--main-second-color);
 }
 
-.user-name-input {
+.modal-name__input {
   width: 100%;
   height: 40px;
   color: var(--main-second-color);

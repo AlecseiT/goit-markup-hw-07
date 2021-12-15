@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-.label-agreement {
+.modal-agreement__label {
   position: relative;
   display: flex;
   font-weight: normal;
@@ -27,13 +27,13 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .checkbox-agreement:checked + &::before {
+  .modal-agreement__checkbox:checked + &::before {
     background-color: var(--navigation-btn-color);
     border-color: var(--navigation-btn-color);
   }
 }
 
-.checkbox-agreement {
+.modal-agreement__checkbox {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -47,14 +47,14 @@
   overflow: hidden;
 }
 
-.agreement-svg {
+.modal-agreement__icon {
   position: absolute;
   top: 0;
   left: 0;
   fill: transparent;
 }
 
-.link-modal {
+.modal-agreement__link {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71x;
