@@ -473,14 +473,14 @@ button {
   margin-top: 50px;
 }
 
-.our-team-item {
+.our-team__item {
   width: 270px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.our-team-item:not(:last-child) {
+.our-team__item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -489,16 +489,16 @@ button {
   justify-content: center;
 }
 
-.social-networks-item {
+.social-networks__item {
   width: 44px;
   height: 44px;
 }
 
-.social-networks-item + .social-networks-item {
+.social-networks__item + .social-networks__item {
   margin-left: 10px;
 }
 
-.social-networks-link {
+.social-networks__link {
   width: 100%;
   height: 100%;
   display: flex;
@@ -510,27 +510,27 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-networks-link:hover, .social-networks-link:focus {
+.social-networks__link:hover, .social-networks__link:focus {
   background-color: var(--navigation-btn-color);
 }
 
-.social-networks-icon {
+.social-networks__icon {
   fill: var(--icons-main-color);
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-networks-link:hover .social-networks-icon,
-.social-networks-link:focus .social-networks-icon {
+.social-networks__link:hover .social-networks__icon,
+.social-networks__link:focus .social-networks__icon {
   fill: var(--secondary-color);
 }
 
-.team-card {
+.our-team__teammate-wrap {
   padding: 30px 32px;
 }
 
-.teammate-title {
+.teammate-name__title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -539,7 +539,7 @@ button {
   color: var(--main-first-color);
 }
 
-.our-team-name {
+.teammate-profession__text {
   margin-top: 10px;
   margin-bottom: 16px;
   font-size: 16px;
